@@ -1,0 +1,42 @@
+# Track only the skill's source areas at the repository root.
+/*
+!/.gitignore
+!/README.md
+!/SKILL.md
+!/agents/
+!/assets/
+!/references/
+!/scripts/
+
+# Runtime caches, local tooling and temporary files (including nested ones).
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Course data, browser exports and credentials are never skill source.
+work/
+outputs/
+raw/
+subtitles/
+debug/
+acquisition.json
+course.json
+last_attempt.json
+*.srt
+*.vtt
+*.zip
+*.har
+.env
+.env.*
+cookies*.txt

@@ -1,0 +1,6 @@
+interface:
+  display_name: "B站课程快速学习"
+  short_description: "将完整课程改编为可独立学习的文字教材，只把必要的感知体验留给视频"
+  default_prompt: "请用 $bilibili-course-reader 将这套B站课程整理为可独立学会的完整文字教材，覆盖知识、方法、案例与自测，只标出确需画面的任务，并生成以课程名命名的HTML。"
+policy:
+  allow_implicit_invocation: true
